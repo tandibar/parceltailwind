@@ -1,0 +1,29 @@
+{
+  "name": "tailwindparcel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.2.4",
+    "parcel": "^2.0.0-nightly.585",
+    "postcss": "^8.2.6",
+    "tailwindcss": "^2.0.3"
+  },
+  "devDependencies": {
+    "@parcel/optimizer-cssnano": "2.0.0-nightly.587",
+    "@parcel/optimizer-htmlnano": "2.0.0-nightly.587",
+    "@parcel/packager-css": "2.0.0-nightly.587",
+    "@parcel/packager-html": "2.0.0-nightly.587",
+    "@parcel/transformer-css": "2.0.0-nightly.587",
+    "@parcel/transformer-html": "2.0.0-nightly.587",
+    "@parcel/transformer-postcss": "2.0.0-nightly.587",
+    "@parcel/transformer-posthtml": "2.0.0-nightly.587"
+  }
+}
